@@ -1,0 +1,140 @@
+:root{
+    --blue:rgb(5, 17, 54);
+    --white:#fff;
+    --pink:rgb(255, 11, 11);
+}
+
+body{
+ background-color:rgb(240, 18, 18); 
+ margin:0;
+ padding:0;
+}
+.nav{ 
+ margin:20px;
+ padding:10px;
+ height: 50px;
+ display: flex;
+ color:#fff;
+ align-items:center;
+ border: none;
+
+}
+#nav-content{
+    display:flex;
+    justify-content: space-between;
+    width:30%;
+    list-style: none; 
+    margin-left: 200px;
+    cursor: pointer;   
+}
+
+ li a{
+    
+     
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+}
+.active{
+    color: rgb(255, 0, 0);
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    background-color:var(--blue);
+    width:80%;
+    place-item:center;
+    margin-left:10%;
+    border:3px solid var(--white); 
+    border-radius:10px;
+    margin-top:2rem;
+
+}
+.content{
+display:flex; 
+flex-direction:row-reverse;
+justify-content:space-evenly;
+}
+.form{
+
+
+    background-color:rgb(141, 155, 196); 
+    width: 1100px;
+    height: 600px;
+    margin: 155PX 235px 200px;
+    padding: 10px;
+  box-shadow: 2px  2px 4px 6px rgb(189, 180, 180);
+  display:flex;
+  flex-direction:column;
+}
+.form-container{
+display:flex;
+flex-direction:column;
+place-content: center;
+align-items: center;
+padding:1em
+}
+.form-container div >h1{
+    color:var(--pink )
+}
+.right{
+    width:300px;
+    color:var(--pink);
+}
+.right p{
+    color:var(--white)
+}
+.content-1{
+
+margin-left: 60px;
+margin-top: 50px;
+
+}
+.input {
+margin-left: 60px;
+}
+input[type="text"] {
+    padding: 12px;
+    border: none;
+    background-color: rgb(94, 95, 136);
+    border-radius: 8px;
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+   
+    
+}
+textarea{
+    color:rgb(255, 255, 255);
+ 
+}
+
+input[type="submit"]{
+    padding: 8px 18px;
+    border: none;
+    background-color:rgb(255, 0, 0);
+    color:white;
+    border-radius: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+::placeholder {
+    color:rgb(226, 219, 219);
+  }
+  #content-2{
+      float:right;
+      margin: 0px 200px 50px;
+      position:relative; left:80px; top:0px; 
+      
+  }
+  #follow-link a{
+      color: #fff;
+     justify-content: space-between;
+     text-decoration: none;
+     margin: 12px;
+  }
+  .term{
+      color: rgb(207, 199, 199);
+      font-size: 14px;
+  }
